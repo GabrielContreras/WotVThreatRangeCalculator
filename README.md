@@ -16,13 +16,13 @@ The following is considered when calculating threat range:
 
 For example, take the following situation.
 
-Character: Gilgamesh
-Movement: 3 Tiles
-Jump: 1 Height
-Furthest Skill Range: 3 Tiles
-Furthest Skill Range Height: 1 Tile
-Furthest Skill area of effect (AoE) range: 2 Tiles
-Furthest Skill area of effect (AoE) range height: 2 Tiles
+Character: Gilgamesh<br>
+Movement: 3 Tiles<br>
+Jump: 1 Height<br>
+Furthest Skill Range: 3 Tiles<br>
+Furthest Skill Range Height: 1 Tile<br>
+Furthest Skill area of effect (AoE) range: 2 Tiles<br>
+Furthest Skill area of effect (AoE) range height: 2 Tiles<br>
 
 With the above, the further potential threat range is: 3 (Movement) + 3 (Range) + 2 (AoE Range) = 8.
 
@@ -30,9 +30,9 @@ However, when taking into consideration the height of the target and the height 
 
 Maps in WotV usually have tiles in a three-dimensional space that usually follow the following range,
 
-X <= 15
-Y <= 15
-Z <= 6
+X <= 15<br>
+Y <= 15<br>
+Z <= 6<br>
 
 
 The current progress of this project is below:
