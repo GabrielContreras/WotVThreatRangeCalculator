@@ -38,6 +38,6 @@ Z <= 6<br>
 The current progress of this project is below:
 1. Create Java program to run threat range calculations given a specified map and specified character
 2. Design and attach SQL database to hold data on each character that exists in the game.
-3. Create GUI to simply usage of program and improve visualization of calculated threat range
+3. Create GUI to simplify usage of program and improve visualization of calculated threat range
 
 In the future the goal is to host this program as a web app.
