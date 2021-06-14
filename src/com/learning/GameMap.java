@@ -28,6 +28,7 @@ public class GameMap {
     }
 
     public void printMap(){
+        System.out.println("Map: " + this.name);
         for(int y = 0; y < this.maxY; y++){
             for(int x = 0; x < this.maxX; x++){
                 System.out.print(board[y][x] + " ");
