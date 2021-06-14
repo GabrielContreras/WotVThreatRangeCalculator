@@ -1,19 +1,23 @@
 package com.learning;
 
 public class Skill {
-    private String name;
-    private int rangeHeight;
-    private int range;
-    private boolean isAoe;
-    private int aoeHeight;
-    private int aoeRange;
+    private final String name;
+    private final int range;
+    private final int rangeHeight;
+    private final boolean isAoe;
+    private final int aoeHeight;
+    private final int aoeRange;
 
 
-    public Skill(String name, int rangeHeight, int range) {
+    public Skill(String name, int range, int rangeHeight) {
         this(name, rangeHeight, range, false, 0, 0);
     }
 
-    public Skill(String name, int rangeHeight, int range, boolean isAoe, int aoeHeight, int aoeRange) {
+    public boolean isAoe() {
+        return isAoe;
+    }
+
+    public Skill(String name, int range, int rangeHeight, boolean isAoe, int aoeRange, int aoeHeight) {
         this.name = name;
         this.rangeHeight = rangeHeight;
         this.range = range;

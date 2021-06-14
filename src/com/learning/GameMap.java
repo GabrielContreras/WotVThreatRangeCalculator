@@ -3,10 +3,10 @@ package com.learning;
 import java.util.ArrayList;
 
 public class GameMap {
-    private String name;
-    private int maxX;
-    private int maxY;
-    private int[][] board;
+    private final String name;
+    private final int maxX;
+    private final int maxY;
+    private final int[][] board;
 
     public GameMap(String name, int maxX, int maxY, int[][] board){
         this.name = name;
