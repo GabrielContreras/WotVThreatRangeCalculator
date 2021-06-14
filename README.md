@@ -1,7 +1,7 @@
 # WotVThreatRangeCalculator
 Visual display of threat range a character in War of the Visions has when placed in a specified map.
 
-Each character in war of the visions has what can be considered a potential threat range. This is usually calculated by their movement range plus the range of their furthest reaching skill. However, there are other variations that affect this calculation that make it difficult for a player to calculate the threat range internally in the provided 30 second time window each turn.
+Each character in war of the visions has what can be considered a potential threat range. This is usually calculated by their movement range plus the range of their furthest reaching skill. However, there are other variations that affect this calculation that make it difficult for a player to determine the threat range internally in the provided 30 second time window available in each round.
 
 The following is considered when calculating threat range:
 1. Distance
