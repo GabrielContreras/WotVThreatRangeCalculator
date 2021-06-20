@@ -52,10 +52,7 @@ public class Character {
         return jump;
     }
 
-    public boolean isSkillAbleToHit(int distance, int height){
-        boolean isWithinDistance = false;
-        boolean isWithinHeight = false;
+    private boolean isAoeInRange(int distance, int heightDifference, Skill skill){
 
-        return false;
     }
 }

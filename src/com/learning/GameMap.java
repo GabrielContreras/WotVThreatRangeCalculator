@@ -23,6 +23,10 @@ public class GameMap {
         return maxX;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public int getMaxY() {
         return maxY;
     }
