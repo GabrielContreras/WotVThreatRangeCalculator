@@ -52,7 +52,22 @@ public class Character {
         return jump;
     }
 
-    private boolean isAoeInRange(int distance, int heightDifference, Skill skill){
+    public int getMaxDistance(int height){
+        if(skills == null){
+            return 0;
+        }
+        int maxDistance = 0;
+        for(Skill skill: this.skills){
+            if(skill.getRangeHeight() >= height){
+                if(maxDistance < skill.getRange()){
+                    maxDistance = skill.getRange();
+                }
+            }
+        }
+        return maxDistance;
+    }
 
+    public ArrayList<Skill> getSkills() {
+        return skills;
     }
 }
